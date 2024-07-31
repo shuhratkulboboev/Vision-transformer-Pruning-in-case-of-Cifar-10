@@ -1,6 +1,4 @@
 # Vision-transformer-Pruning-in-case-of-Cifar-10
-vision-transformers-cifar10
-Let's train vision transformers for cifar 10!
 
 This is an unofficial and elementary implementation of An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale.
 
@@ -15,16 +13,18 @@ python train_cifar10.py --net res18 # resnet18
 
 Results..
 Accuracy
-ViT patch=2	80%
-ViT patch=4	80%
-ViT patch=8	30%
-resnet18	93% ;)
+ViT patch=2	 - > 80%
+ViT patch=4	 - >80%
+ViT patch=8	 - > 30%
+
+
 Pruning
 python vitprune.py
 
-Then you can use the saved model to finetune.
+Then I used the saved model to finetune.
 
 Reference
-https://github.com/kentaroy47/vision-transformers-cifar10.git
+
 
 Visual Transformer Pruning
+https://arxiv.org/abs/2104.08500
