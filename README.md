@@ -16,6 +16,8 @@ python train_cifar10.py --patch 2 # vit-patchsize-2
 
 python train_cifar10.py --net res18 # resnet18
 
+
+
 Results:
 
 Accuracy
@@ -27,11 +29,15 @@ ViT patch=4	 - >80%
 ViT patch=8	 - > 30%
 
 
-Pruning
+Pruning:
+
+
 
 python vitprune.py
 
+
 Then I used the saved model to finetune.
+
 
 Reference
 
